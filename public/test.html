@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <title>isolated star学习四个伪类选择器</title>
+    <style type="text/css">
+        /*点击之前*/
+        a:link {
+            background-color: red;
+        }
+        /*鼠标悬停状态*/
+        a:hover {
+            background-color: green;
+        }
+        /*点击状态*/
+        a:active {
+            background-color: blue;
+        }
+        /*点击之后状态*/
+        a:visited {
+            background-color: gray;
+        }
+        /*改变文字的默认颜色以及消除下划线*/
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!--伪类元素选择器(原始状态[:link];鼠标悬停状态[:hover];点击状态[:active];点击之后[:visited])-->
+    <a href="http://www.aimacademy.cn/" target="_blank">点击进入爱玛学院</a>
+</body>
+</html>
